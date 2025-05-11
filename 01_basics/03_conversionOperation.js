@@ -33,3 +33,9 @@ console.log(stringNumber)
 console.log(typeof stringNumber)
 
 //33 => "33" //converting it into strings
+
+
+// ***************** OPERATIONS *********************//
+
+let value=3
+let negvalue=-
