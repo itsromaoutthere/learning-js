@@ -38,4 +38,30 @@ console.log(typeof stringNumber)
 // ***************** OPERATIONS *********************//
 
 let value=3
-let negvalue=-
+let negvalue= -value
+console.log(negvalue);
+
+//BASIC ARITHEMATIC OPERATIONS
+console.log(3+33);
+console.log(3-33);
+console.log(3*33);
+console.log(3/33);
+console.log(3%33);
+
+//string concatination
+let str1="hello"
+let str2="world"
+let str3=str1+str2
+console.log(str3);
+
+console.log("1"+2+2); //122
+console.log(1+2+"2"); //32
+console.log("1"+2); //12
+console.log(1+"2"); //12
+
+console.log(+true); //1 //true+ will show error
+
+//prefix => adds and then execute
+//postfix => execute and then add
+
+
