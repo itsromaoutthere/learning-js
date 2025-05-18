@@ -7,4 +7,16 @@ while(index <= 10){
 
 }
 
-let myArrray=["apple","lichi","mango"]
+let myArray=["apple","lichi","mango"]
+let arr=0
+while( arr < myArray.length){
+    console.log(`value is ${myArray[arr]}`);
+    arr=arr+1
+}
+
+let score=1
+
+do{
+    console.log(`Score is ${score}`);
+    score++
+}while(score<=10)
